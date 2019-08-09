@@ -1,5 +1,6 @@
 <template>
-	<div id="app" class="component" data-theme="default" data-accent="blue">
+	<div id="app" class="component" :data-theme="themeColor" :data-accent="accentColor">
+		<!--<p>{{ themeColor }}</p>-->
 		<Preloader v-if="isShowPreloader"/>
 		<main class="main">
 			<Navbar/>
@@ -12,20 +13,23 @@
 					</keep-alive>
 				</div>
 			</div>
+			<Switcher/>
 		</main>
 	</div>
 </template>
 
 <script>
-
 	import Navbar from '@/layout/AppNavbar'
 	import Preloader from '@/components/AppPreloader'
+	import Switcher from '@/components/switcher'
 	import {library} from '@fortawesome/fontawesome-svg-core'
-	import {faBars, faChevronLeft, faChevronRight} from '@fortawesome/free-solid-svg-icons'
+	import {faBars, faChevronLeft, faChevronRight, faCog} from '@fortawesome/free-solid-svg-icons'
 	import {faTwitter, faFacebook, faGooglePlus, faYoutube, faInstagram} from '@fortawesome/free-brands-svg-icons'
 
-	library.add(faBars, faChevronLeft, faChevronRight)
+	library.add(faBars, faChevronLeft, faChevronRight, faCog)
 	library.add(faTwitter, faFacebook, faGooglePlus, faYoutube, faInstagram)
+
+	import { mapGetters } from 'vuex';
 
 	export default {
 		name: 'App',
@@ -38,10 +42,16 @@
 			this.isShowPreloader = false
 		},
 		methods: {},
-		computed: {},
+		computed: {
+			...mapGetters({
+				themeColor: 'switcher/themeColor',
+				accentColor: 'switcher/accentColor',
+			})
+		},
 		components: {
 			Navbar,
-			Preloader
+			Preloader,
+			Switcher
 		}
 	}
 </script>

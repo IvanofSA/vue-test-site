@@ -31,14 +31,14 @@
 }
 
 [data-accent="default"] {
-	--color-primary: blue;
+	--color-accent-primary: blue;
 	/* Цветовой контраст */
-	--color-bg: white;
-	--color-contrast-lower: hsl(0, 0%, 95%);
-	--color-contrast-low: hsl(240, 1%, 83%);
-	--color-contrast-medium: hsl(240, 1%, 48%);
-	--color-contrast-high: hsl(240, 4%, 20%);
-	--color-contrast-higher: black;
+	--color-accent-bg: white;
+	--color-accent-contrast-lower: hsl(0, 0%, 95%);
+	--color-accent-contrast-low: hsl(240, 1%, 83%);
+	--color-accent-contrast-medium: hsl(240, 1%, 48%);
+	--color-accent-contrast-high: hsl(240, 4%, 20%);
+	--color-accent-contrast-higher: black;
 }
 
 [data-accent="blue"] {
@@ -50,4 +50,55 @@
 	--color-accent-contrast-medium: hsl(212, 55%, 79%);
 	--color-accent-contrast-high: hsl(212, 65%, 69%);
 	--color-accent-contrast-higher: hsl(212, 69%, 59%);
+}
+
+[data-accent="red"] {
+	--color-accent-primary: #ff724c;
+	/* Цветовой контраст */
+	--color-accent-bg: black;
+	--color-accent-contrast-lower: hsl(12, 70%, 95%);
+	--color-accent-contrast-low: hsl(12, 70%, 85%);
+	--color-accent-contrast-medium: hsl(12, 70%, 75%);
+	--color-accent-contrast-high: hsl(12, 70%, 65%);
+	--color-accent-contrast-higher: hsl(12, 70%, 55%);
+}
+[data-accent="green"] {
+	--color-accent-primary: #8bcf00;
+	/* Цветовой контраст */
+	--color-accent-bg: black;
+	--color-accent-contrast-lower: hsl(79, 100%, 95%);
+	--color-accent-contrast-low: hsl(79, 100%, 85%);
+	--color-accent-contrast-medium: hsl(79, 100%, 75%);
+	--color-accent-contrast-high: hsl(79, 100%, 65%);
+	--color-accent-contrast-higher: hsl(79, 100%, 55%);
+}
+[data-accent="orange"] {
+	--color-accent-primary: #fd9129;
+	/* Цветовой контраст */
+	--color-accent-bg: black;
+	--color-accent-contrast-lower: hsl(29, 83%, 95%);
+	--color-accent-contrast-low: hsl(29, 83%, 85%);
+	--color-accent-contrast-medium: hsl(29, 83%, 75%);
+	--color-accent-contrast-high: hsl(29, 83%, 65%);
+	--color-accent-contrast-higher: hsl(29, 83%, 55%);
+}
+[data-accent="yellow"] {
+	--color-accent-primary: #e5be24;
+	/* Цветовой контраст */
+	--color-accent-bg: black;
+	--color-accent-contrast-lower: hsl(47, 84%, 95%);
+	--color-accent-contrast-low: hsl(47, 84%, 85%);
+	--color-accent-contrast-medium: hsl(47, 84%, 75%);
+	--color-accent-contrast-high: hsl(47, 84%, 65%);
+	--color-accent-contrast-higher: hsl(47, 84%, 55%);
+}
+[data-accent="violet"] {
+	--color-accent-primary: #9161e0;
+	/* Цветовой контраст */
+	--color-accent-bg: black;
+	--color-accent-contrast-lower: hsl(262, 56%, 95%);
+	--color-accent-contrast-low: hsl(262, 56%, 85%);
+	--color-accent-contrast-medium: hsl(262, 56%, 75%);
+	--color-accent-contrast-high: hsl(262, 56%, 65%);
+	--color-accent-contrast-higher: hsl(262, 56%, 55%);
 }

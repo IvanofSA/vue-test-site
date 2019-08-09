@@ -61,7 +61,7 @@
 				let timer = setTimeout(() => {
 					this.classOverlay = CSSclass;
 
-				}, 200)
+				}, 150)
 			},
 			leave(e) {
 				let direction = this.getDir(e, e.target),
@@ -70,7 +70,7 @@
 				clearTimeout(timer);
 				let timer = setTimeout(() => {
 					this.classOverlay = CSSclass;
-				}, 200)
+				}, 150)
 			},
 			getDir(coordinates, element) {
 				let w = element.offsetWidth,

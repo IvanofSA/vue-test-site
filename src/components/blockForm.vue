@@ -27,8 +27,8 @@
 
 				<div class="form__group" :class="{'has-error': $v.message.$error}">
 					<textarea name="name" class="form__input form__input_message"
-						   placeholder="Message"
-						   v-model.lazy="$v.message.$model" />
+							  placeholder="Message"
+							  v-model.lazy="$v.message.$model"/>
 					<div class="form__border"></div>
 					<i class="form__icon pe-7s-user"></i>
 					<div class="form__help-block with-errors" v-if="$v.message.$error ">Ошибка</div>

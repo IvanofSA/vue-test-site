@@ -26,7 +26,6 @@
 </script>
 
 <style scoped lang="scss">
-
 	.mobile-header {
 		display: flex;
 		position: fixed;

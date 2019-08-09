@@ -139,7 +139,8 @@
 		}
 
 		&__title {
-			color: var(--color-contrast-higher);
+			color: var(--color-accent-contrast-higher);
+
 			font-size: 27px;
 			font-weight: 400;
 			line-height: 1.2em;
@@ -178,7 +179,7 @@
 			&:first-child {
 				& .menu__link {
 					border-top: 1px solid rgba(255, 255, 255, 0.12);
-					border-color: var(--color-accent-contrast-higher);
+					border-color: var(--color-contrast-low);
 				}
 			}
 		}
@@ -192,11 +193,11 @@
 			font-weight: 400;
 			text-decoration: none;
 			outline: none;
-			opacity: 0.6;
+			/*opacity: 0.6;*/
 			color: var(--color-contrast-higher);
 			border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 			border-color: var(--color-contrast-low);
-			transition: all 0.3s ease-in-out;
+			/*transition: all 0.3s ease-in-out;*/
 
 			&:hover, &:focus {
 				background-color: transparent;
@@ -208,14 +209,13 @@
 			}
 
 			&.active {
-
 				background-color: transparent;
 				opacity: 1;
-
+				border-top: 1px solid rgba(255, 255, 255, 0.12);
+				border-color: var(--color-accent-contrast-higher);
 				&:after {
 					width: 3px;
 				}
-
 			}
 
 			&:after {
@@ -236,7 +236,9 @@
 			display: block;
 			font-size: 21px;
 			margin-bottom: 3px;
-			text-align: center
+			text-align: center;
+			color: var(--color-accent-contrast-higher);
+
 		}
 	}
 

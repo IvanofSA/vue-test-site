@@ -1,12 +1,10 @@
 <template>
-
 	<section class="about">
 		<div class="about__inner">
 			<sectionTitle>
 				<template #title><h2> About Me </h2></template>
 				<template #description><h5> Artist, Thinker, Creative Doer </h5></template>
 			</sectionTitle>
-
 			<blockPerson/>
 			<blockServices/>
 			<blockClients :clients="clients"/>
@@ -14,9 +12,7 @@
 			<blockFun/>
 		</div>
 	</section>
-
 </template>
-
 
 <script>
 	import sectionTitle from '@/components/sectionTitle'
