@@ -116,7 +116,7 @@
 				width: 100%;
 				background: 0 0;
 				text-align: left;
-				color: #555;
+				color: var(--color-contrast-higher);
 				box-shadow: none;
 				outline: none;
 				font-family: 'PT Sans', Helvetica, sans-serif;
@@ -182,10 +182,9 @@
 				margin-bottom: .25em;
 				font-size: 0.875em;
 				line-height: 1.2;
-				border: 0;
 				outline: 0;
 				border: 2px solid var(--color-accent-contrast-higher);
-				color: #222;
+				color: var(--color-contrast-higher);
 				text-shadow: none;
 				background: none;
 				border-radius: 0;

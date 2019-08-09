@@ -33,7 +33,7 @@
 		margin-bottom: 30px;
 
 		&__info {
-			color: #222;
+			color: var(--color-contrast-higher);
 			font-size: 0.8em;
 			line-height: 1.1em;
 			position: relative;
@@ -50,6 +50,7 @@
 
 		&__percentage {
 			background-color: var(--color-accent-contrast-higher);
+			color: var(--color-contrast-higher);
 			border: 1px solid #fff;
 			height: 10px;
 			padding: 0;

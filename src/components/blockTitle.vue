@@ -19,7 +19,7 @@
 		padding: 0;
 
 		h3 {
-			color: #222;
+			color: var(--color-contrast-higher);
 			font-family: 'Oxygen', Helvetica, sans-serif;
 			font-weight: 700;
 			line-height: 1.5em;

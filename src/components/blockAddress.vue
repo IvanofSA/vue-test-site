@@ -67,7 +67,7 @@
 			width: 45%;
 		}
 		&__desc {
-			color: #555;
+			color: var(--color-contrast-higher);
 			font-size: 0.875em;
 			margin: 0 0 10px;
 			font-weight: 300;
@@ -99,7 +99,7 @@
 			padding-left: 50px;
 
 			h5 {
-				color: #222;
+				color: var(--color-contrast-higher);
 				font-family: 'Oxygen', Helvetica, sans-serif;
 				font-weight: 700;
 				font-size: 0.8675em;

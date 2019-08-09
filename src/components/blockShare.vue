@@ -20,7 +20,7 @@
 	.social {
 		display: block;
 		list-style: none;
-		margin: 25px 0 5px;
+		margin: 25px 0;
 		padding: 0;
 		text-align: left;
 

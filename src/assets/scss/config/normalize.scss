@@ -1,23 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap');
 @import "../config/icons";
 
-//body {
-//	line-height: 1;
-//}
 
 * {
 	margin: 0;
 	padding: 0;
-	//vertical-align: baseline;
 	border: 0;
 	outline: 0;
-
 	box-sizing: border-box;
-
 	-moz-text-size-adjust: none;
 	-ms-text-size-adjust: none;
 	text-size-adjust: none;
-
 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 	-webkit-tap-highlight-color: transparent;
 	-webkit-touch-callout: none;
@@ -27,8 +20,6 @@
 		outline: none;
 	}
 }
-
-
 
 ol, ul {
 	list-style: none;
@@ -100,26 +91,20 @@ label {
 	display: none;
 }
 
-
 section {
 	width: 100%;
 	position: absolute;
-	//opacity: 0;
-	//top: auto;
 	padding: 10px 0;
 	background-color: var(--color-bg);
 	overflow: hidden;
-	//visibility: hidden;
-	//transform: translate3d(0, 0, 0);
-	//transform-style: preserve-3d;
 	box-shadow: 0 1px 33px rgba(0, 0, 0, 0.35);
-	//animation: moveLeft 0.66s ease-in-out forwards;
 
 	@media (min-width: 1000px) {
 		position: relative;
 		overflow-y: scroll;
 		height: 100%;
 	}
+
 	&::-webkit-scrollbar {
 		width: 4px;
 	}
@@ -132,6 +117,7 @@ section {
 	&::-webkit-scrollbar-thumb {
 		background: var(--color-accent-contrast-higher);
 	}
+
 	&:before {
 		@media (min-width: 1000px) {
 			content: '';

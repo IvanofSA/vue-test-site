@@ -139,8 +139,12 @@
 		display: flex;
 		flex-flow: row wrap;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 		width: 100%;
+
+		@media (min-width: 1000px) {
+			justify-content: space-between;
+		}
 	}
 
 	.list-complete-enter, .list-complete-leave-to

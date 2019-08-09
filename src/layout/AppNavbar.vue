@@ -3,7 +3,6 @@
 		<!--mob menu-->
 		<MobMenu @toggle="onToggleClass()"/>
 		<!--mob menu /-->
-
 		<header class="header" :class="toggleClass">
 			<!--avatar-->
 			<div class="header__photo">
@@ -94,6 +93,8 @@
 </script>
 
 <style scoped lang="scss">
+	/*@import ".ass/scss/config/normalize";*/
+	/*@import "../../src/assets/scss/config/normalize";*/
 
 	.header {
 		position: fixed;
@@ -177,7 +178,7 @@
 			&:first-child {
 				& .menu__link {
 					border-top: 1px solid rgba(255, 255, 255, 0.12);
-					border-color: var(--color-contrast-low);
+					border-color: var(--color-accent-contrast-higher);
 				}
 			}
 		}

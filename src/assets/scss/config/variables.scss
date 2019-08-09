@@ -13,6 +13,7 @@
 	background-color: var(--color-bg);
 	color: var(--color-contrast-high);
 }
+
 [data-accent] {
 	background-color: var(--color-accent-bg);
 	color: var(--color-accent-contrast-high);
@@ -41,9 +42,9 @@
 }
 
 [data-accent="blue"] {
-	//--color-accent-primary: blue;
+	--color-accent-primary: blue;
 	/* Цветовой контраст */
-	//--color-accent-bg: black;
+	--color-accent-bg: black;
 	--color-accent-contrast-lower: hsl(212, 40%, 95%);
 	--color-accent-contrast-low: hsl(212, 45%, 89%);
 	--color-accent-contrast-medium: hsl(212, 55%, 79%);

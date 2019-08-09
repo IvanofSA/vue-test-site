@@ -54,6 +54,7 @@
 		margin: 10px 0 0;
 		color: #222;
 		font-family: 'Oxygen', Helvetica, sans-serif;
+		color: var(--color-contrast-higher);
 		font-weight: 700;
 		line-height: 1.5em;
 		font-size: 1em;
@@ -68,9 +69,10 @@
 	}
 
 	.text {
+
 		font-size: 0.875em;
 		margin: 0 0 10px;
-		color: #222;
+		color: var(--color-contrast-higher);
 		font-weight: 300;
 	}
 

@@ -7,13 +7,10 @@
 				<div class="website">
 					<keep-alive>
 						<transition name="page" mode="out-in">
-							<router-view />
+							<router-view/>
 						</transition>
 					</keep-alive>
 				</div>
-
-
-
 			</div>
 		</main>
 	</div>
@@ -40,12 +37,8 @@
 		mounted() {
 			this.isShowPreloader = false
 		},
-		methods: {
-
-		},
-		computed: {
-
-		},
+		methods: {},
+		computed: {},
 		components: {
 			Navbar,
 			Preloader
@@ -56,6 +49,7 @@
 <style lang="scss">
 
 	@import "assets/scss/config/normalize";
+	@import "assets/scss/config/variables";
 
 	body {
 		font-family: 'Oxygen', Helvetica, sans-serif;
@@ -77,7 +71,7 @@
 
 	.wrapper {
 		position: absolute;
-		overflow: hidden;
+		/*overflow: hidden;*/
 		top: 50px;
 		bottom: 0;
 		height: auto;

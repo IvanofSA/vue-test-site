@@ -92,7 +92,7 @@
 		/*animation: moveLeft 0.66s ease-in-out forwards;*/
 		&__inner {
 			position: relative;
-			padding: 5px 15px;
+			padding: 5px 20px;
 			@media (min-width: 1000px) {
 				padding: 20px 60px 50px;
 			}
