@@ -30,8 +30,6 @@
 							 :type="item.props.type"
 							 :img="item.props.img"/>
 			</transition-group>
-
-
 			<modal v-if="showModal"
 				   @close="showModal = false"
 				   v-for="item in filterModals(currentId)"

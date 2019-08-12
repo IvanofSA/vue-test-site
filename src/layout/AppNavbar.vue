@@ -40,7 +40,7 @@
 					</li>
 
 					<li class="menu__item">
-						<router-link class="menu__link" exact-active-class="active" tag="a" :to="{ name: 'Portfolio'}">
+						<router-link class="menu__link" exact-active-class="active" tag="a" :to="{ name: 'Portfolios'}">
 							<i
 									class="menu__icon pe-7s-icon pe-7s-portfolio"></i> Portfolio
 						</router-link>
