@@ -4,7 +4,7 @@
 		<ul class="clients__list">
 			<li class="clients__item" v-for="(client, i) in clients" :key="i">
 				<a :href="client.link" class="clients__link">
-					<img class="clients__img" :src="'../../static/images/clients/'+client.icon" :alt="client.name">
+					<img class="clients__img" :src="require('@/static/images/clients/' +client.icon)" :alt="client.name">
 				</a>
 			</li>
 		</ul>

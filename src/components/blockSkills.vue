@@ -5,7 +5,6 @@
 			<li class="skill__item" v-for="(skill, index) in skills.list" :key="index">
 				<h4 class="skill__info">{{skill.name}}</h4>
 				<div class="skill__container">
-
 					<div class="skill__percentage" :style="`width:${skill.percentage}%`"></div>
 				</div>
 			</li>
@@ -53,10 +52,12 @@
 			background-color: var(--color-accent-contrast-higher);
 			color: var(--color-contrast-higher);
 			border: 1px solid #fff;
+			width: 0%;
 			height: 10px;
 			padding: 0;
-			transition: width 2s ease-in-out;
+			transition: width 1s ease-in-out;
 		}
 	}
+
 
 </style>

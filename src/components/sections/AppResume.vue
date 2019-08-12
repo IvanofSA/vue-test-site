@@ -124,7 +124,7 @@
 		@media (min-width: 1000px) {
 			flex-flow: row wrap;
 			align-items: flex-start;
-			justify-content: space-between;
+			justify-content: center;
 		}
 	}
 

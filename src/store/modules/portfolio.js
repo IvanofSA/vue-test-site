@@ -1,4 +1,3 @@
-
 export default {
 	namespaced: true,
 	state: {
@@ -6,7 +5,7 @@ export default {
 			{
 				id: 1,
 				props: {
-					img: '../../static/images/portfolio/1.jpg',
+					img: '5.jpg',
 					name: 'Project Name1',
 					type: 'media',
 					iconClass: 'pe-7s-display2'
@@ -16,7 +15,7 @@ export default {
 			{
 				id: 2,
 				props: {
-					img: '../../static/images/portfolio/1.jpg',
+					img: '6.jpg',
 					name: 'Project Name2',
 					type: 'illustration',
 					iconClass: 'pe-7s-display2'
@@ -26,7 +25,7 @@ export default {
 			{
 				id: 3,
 				props: {
-					img: '../../static/images/portfolio/1.jpg',
+					img: '7.jpg',
 					name: 'Project Name3',
 					type: 'illustration',
 					iconClass: 'pe-7s-display2'
@@ -36,7 +35,7 @@ export default {
 			{
 				id: 4,
 				props: {
-					img: '../../static/images/portfolio/1.jpg',
+					img: '8.jpg',
 					name: 'Project Name4',
 					type: 'video',
 					iconClass: 'pe-7s-display2'
@@ -46,7 +45,7 @@ export default {
 			{
 				id: 5,
 				props: {
-					img: '../../static/images/portfolio/1.jpg',
+					img: '9.jpg',
 					name: 'Project Name5',
 					type: 'video',
 					iconClass: 'pe-7s-display2'
@@ -56,7 +55,7 @@ export default {
 			{
 				id: 6,
 				props: {
-					img: '../../static/images/portfolio/1.jpg',
+					img: '10.jpg',
 					name: 'Project Name6',
 					type: 'video',
 					iconClass: 'pe-7s-display2'
@@ -66,7 +65,7 @@ export default {
 			{
 				id: 7,
 				props: {
-					img: '../../static/images/portfolio/1.jpg',
+					img: '11.jpg',
 					name: 'Project Name7',
 					type: 'video',
 					iconClass: 'pe-7s-display2'
@@ -89,10 +88,6 @@ export default {
 			});
 		},
 	},
-	mutations: {
-
-	},
-	actions: {
-
-	}
+	mutations: {},
+	actions: {}
 }

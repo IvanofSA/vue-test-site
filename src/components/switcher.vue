@@ -26,6 +26,19 @@
 					<li data-color="default" class="color__item color__item_default" @click="setAccentColor('default')"></li>
 				</ul>
 			</div>
+
+			<!--<div class="options__title">Nav Position</div>-->
+			<!--<div class="options__layout layout">-->
+			<!--<a href="" class="layout__item">-->
+			<!--<span class="layout__preview layout__preview_left">Left</span>-->
+			<!--</a>-->
+			<!--<a href="" class="layout__item">-->
+			<!--<span class="layout__preview layout__preview_top">Top</span>-->
+			<!--</a>-->
+			<!--<a href="" class="layout__item">-->
+			<!--<span class="layout__preview layout__preview_bottom">Bottom</span>-->
+			<!--</a>-->
+			<!--</div>-->
 		</div>
 	</div>
 
@@ -142,6 +155,9 @@
 			height: 34px;
 			text-align: center;
 
+			&:hover {
+				box-shadow: 0 1px 7px rgba(0, 0, 0, 0.15);
+			}
 			&.active {
 				box-shadow: 0 1px 7px rgba(0, 0, 0, 0.15);
 			}
@@ -204,11 +220,27 @@
 			&_violet {
 				background: #9161e0;
 			}
-
 			&_default {
 				background: #000000;
 			}
 
+			&:hover {
+				&:before {
+					position: absolute;
+					left: 0;
+					right: 0;
+					top: -2px;
+					bottom: 0;
+					margin: auto;
+					content: '';
+					display: block;
+					width: 5px;
+					height: 8px;
+					border: solid #fff;
+					border-width: 0 2px 2px 0;
+					transform: rotate(45deg);
+				}
+			}
 			&.active {
 				&:before {
 					position: absolute;
@@ -225,6 +257,45 @@
 					border-width: 0 2px 2px 0;
 					transform: rotate(45deg);
 				}
+			}
+		}
+	}
+
+	.layout {
+		&__item {
+			display: block;
+			cursor: pointer;
+			color: #ff724c;
+			text-decoration: none;
+			outline: none;
+			transition: all 0.3s ease-in-out;
+		}
+
+		&__preview {
+			display: block;
+			float: none;
+			width: 100%;
+			height: 34px;
+			line-height: 34px;
+			font-size: 13px;
+			color: #666;
+			background-color: #f8f8f8;
+			margin: 0 0 10px;
+			text-align: center;
+			&_left {
+				border-left: 3px solid #333;
+			}
+			&_bottom {
+				border-bottom: 3px solid #333;
+			}
+			&_top {
+				border-top: 3px solid #333;
+			}
+			&:hover {
+				border-color: #ff724c;
+			}
+			&.active {
+				border-color: #ff724c;
 			}
 		}
 	}

@@ -1,7 +1,7 @@
 <template>
 	<li class="list-complete-item" @mouseenter="enter" @mouseleave="leave" @click="showModal">
 		<a href="#" class="list-complete-link">
-			<img :src="img" alt="" class="list-complete-img">
+			<img :src="require('@/static/images/portfolio/portfolio_full/' +img)" alt="" class="list-complete-img">
 			<div class="list-complete-overlay" :class="classOverlay">
 				<h5>{{name}}</h5>
 				<small>{{type}}</small>
@@ -116,7 +116,8 @@
 		padding: 5px;
 
 		@media (min-width: 1000px) {
-			flex: 33.3333333%;
+			width: 370px;
+			height: 250px;
 		}
 	}
 
@@ -140,6 +141,7 @@
 
 	.list-complete-overlay {
 		position: absolute;
+		padding: 10px;
 		cursor: pointer;
 		background: var(--color-contrast-lower);
 		width: 100%;
@@ -154,46 +156,43 @@
 		&.in-top {
 			top: 0;
 			left: 0;
-			opacity: 1;
+			opacity: 0.95;
 		}
 
 		&.in-bottom {
 			bottom: 0;
 			left: 0;
-			opacity: 1;
+			opacity: 0.95;
 		}
 
 		&.in-left {
 			left: 0;
 			top: 0;
-			opacity: 1;
+			opacity: 0.95;
 		}
 
 		&.in-right {
 			left: 0;
 			top: 0;
-			opacity: 1;
+			opacity: 0.95;
 		}
 
 		&.out-top {
 			top: -100%;
 			left: 0;
 			opacity: 0;
-
 		}
 
 		&.out-bottom {
 			top: 100%;
 			left: 0;
 			opacity: 0;
-
 		}
 
 		&.out-left {
 			left: -100%;
 			top: 0;
 			opacity: 0;
-
 		}
 
 		&.out-right {
@@ -213,11 +212,11 @@
 			color: var(--color-contrast-medium);
 			position: absolute;
 			bottom: 10px;
-			left: 20px;
+			left: 10px;
 		}
 
 		i {
-			color: #4d91de;
+			color: var(--color-accent-contrast-higher);
 			position: absolute;
 			font-size: 24px;
 			bottom: 14px;

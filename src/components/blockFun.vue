@@ -94,6 +94,7 @@
 			display: block;
 			margin: 10px 0;
 			color: var(--color-accent-contrast-higher);
+
 		}
 
 		&__icon {

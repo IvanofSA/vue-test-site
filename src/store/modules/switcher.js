@@ -2,8 +2,8 @@
 export default {
 	namespaced: true,
 	state: {
-		themeColor: '#FFFFFF',
-		accentColor: '#000000'
+		themeColor: 'default',
+		accentColor: 'default'
 	},
 	getters: {
 		themeColor: state => state.themeColor,

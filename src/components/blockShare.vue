@@ -6,7 +6,6 @@
 			</a>
 		</li>
 	</ul>
-
 </template>
 
 <script>
@@ -23,11 +22,6 @@
 		margin: 25px 0;
 		padding: 0;
 		text-align: left;
-
-		@media (min-width: 1000px) {
-			/*width: 50%;*/
-		}
-
 
 		&__item {
 			display: inline-block;
@@ -55,7 +49,7 @@
 			text-align: center;
 
 			&:hover, &:focus {
-				color: var(--color-contrast-higher);
+				color: #fff;
 				background-color: var(--color-accent-contrast-higher);
 				border-color: transparent;
 			}

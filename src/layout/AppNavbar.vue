@@ -211,8 +211,8 @@
 			&.active {
 				background-color: transparent;
 				opacity: 1;
-				border-top: 1px solid rgba(255, 255, 255, 0.12);
-				border-color: var(--color-accent-contrast-higher);
+/*				border-top: 1px solid rgba(255, 255, 255, 0.12);
+				border-color: var(--color-accent-contrast-higher);*/
 				&:after {
 					width: 3px;
 				}

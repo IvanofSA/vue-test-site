@@ -21,6 +21,12 @@
 		margin-bottom: 30px;
 		text-align: center;
 
+		@media (min-width: 1240px) {
+			width: 300px;
+			margin: 0 auto 30px;
+			text-align: right;
+		}
+
 		h2 {
 			display: inline-block;
 			position: relative;

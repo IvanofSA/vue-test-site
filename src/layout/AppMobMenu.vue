@@ -49,9 +49,6 @@
 			font-size: 1.5em;
 			color: var(--color-accent-contrast-higher);
 		}
-		&__logo {
-
-		}
 		&__title {
 			display: inline-block;
 			font-size: 18px;
