@@ -5,15 +5,15 @@
 		</a>
 
 		<div class="switcher__options switcher__options_right options" :class="{'active': activeClass}">
-			<div class="options__title">Template Style</div>
-			<div class="options__style style">
-				<a class="style__switcher style__switcher_dark" @click="setThemeColor('dark')">
-					<span class="style__preview style__preview_dark">Dark</span>
-				</a>
-				<a class="style__switcher style__switcher_light" @click="setThemeColor('light')">
-					<span class="style__preview style__preview_light">Light</span>
-				</a>
-			</div>
+			<!--<div class="options__title">Template Style</div>-->
+			<!--<div class="options__style style">-->
+				<!--<a class="style__switcher style__switcher_dark" @click="setThemeColor('dark')">-->
+					<!--<span class="style__preview style__preview_dark">Dark</span>-->
+				<!--</a>-->
+				<!--<a class="style__switcher style__switcher_light" @click="setThemeColor('light')">-->
+					<!--<span class="style__preview style__preview_light">Light</span>-->
+				<!--</a>-->
+			<!--</div>-->
 			<div class="options__title">Main color</div>
 			<div class="options__color color">
 				<ul class="color__list">
