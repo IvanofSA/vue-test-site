@@ -5,15 +5,6 @@
 		</a>
 
 		<div class="switcher__options switcher__options_right options" :class="{'active': activeClass}">
-			<!--<div class="options__title">Template Style</div>-->
-			<!--<div class="options__style style">-->
-				<!--<a class="style__switcher style__switcher_dark" @click="setThemeColor('dark')">-->
-					<!--<span class="style__preview style__preview_dark">Dark</span>-->
-				<!--</a>-->
-				<!--<a class="style__switcher style__switcher_light" @click="setThemeColor('light')">-->
-					<!--<span class="style__preview style__preview_light">Light</span>-->
-				<!--</a>-->
-			<!--</div>-->
 			<div class="options__title">Main color</div>
 			<div class="options__color color">
 				<ul class="color__list">
@@ -26,19 +17,6 @@
 					<li data-color="default" class="color__item color__item_default" @click="setAccentColor('default')"></li>
 				</ul>
 			</div>
-
-			<!--<div class="options__title">Nav Position</div>-->
-			<!--<div class="options__layout layout">-->
-			<!--<a href="" class="layout__item">-->
-			<!--<span class="layout__preview layout__preview_left">Left</span>-->
-			<!--</a>-->
-			<!--<a href="" class="layout__item">-->
-			<!--<span class="layout__preview layout__preview_top">Top</span>-->
-			<!--</a>-->
-			<!--<a href="" class="layout__item">-->
-			<!--<span class="layout__preview layout__preview_bottom">Bottom</span>-->
-			<!--</a>-->
-			<!--</div>-->
 		</div>
 	</div>
 
