@@ -8,7 +8,7 @@
 				<i class="pe-7s-icon" :class="icon"></i>
 			</div>
 		</a>
-		<router-link :to="{ name: 'Portfolio', params: {id: id}}"> {{ id }}</router-link>
+		<!--<router-link :to="{ name: 'Portfolio', params: {id: id}}"> {{ id }}</router-link>-->
 	</li>
 </template>
 
