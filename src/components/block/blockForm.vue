@@ -43,7 +43,7 @@
 </template>
 
 <script>
-	import blockTitle from '@/components/blockTitle'
+	import blockTitle from './blockTitle'
 	import {required, email, minLength} from "vuelidate/lib/validators";
 
 	export default {

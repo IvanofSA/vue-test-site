@@ -26,8 +26,8 @@
 
 <script>
 	import sectionTitle from '@/components/sectionTitle'
-	import blockSkills from '@/components/blockSkills'
-	import blockExperience from '@/components/blockExperience'
+	import blockSkills from '@/components/block/blockSkills'
+	import blockExperience from '@/components/block/blockExperience'
 
 	export default {
 		name: "AppResume",

@@ -22,7 +22,6 @@
 			<transition-group name="list-complete" class="list-complete" tag="ul">
 				<projectCard tag="li"
 							 v-for="item in filterWorks(currentTag)"
-							 @modal="onShow($event)"
 							 :key="item.id"
 							 :id="item.id"
 							 :name="item.props.name"
@@ -141,7 +140,7 @@
 		width: 100%;
 
 		@media (min-width: 1000px) {
-			justify-content: space-between;
+			justify-content: flex-start;
 		}
 	}
 

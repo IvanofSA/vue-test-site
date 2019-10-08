@@ -13,7 +13,7 @@
 
 <script>
 	import sectionTitle from '@/components/sectionTitle'
-	import blockTitle from '@/components/blockTitle'
+	import blockTitle from '@/components/block/blockTitle'
 
 	export default {
 		name: "profilePage",

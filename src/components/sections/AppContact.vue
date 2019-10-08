@@ -18,8 +18,8 @@
 
 <script>
 	import sectionTitle from '@/components/sectionTitle'
-	import blockAddress from '@/components/blockAddress'
-	import blockForm from '@/components/blockForm'
+	import blockAddress from '@/components/block/blockAddress'
+	import blockForm from '@/components/block/blockForm'
 
 	export default {
 		name: "AppContact",

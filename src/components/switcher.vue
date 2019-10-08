@@ -8,16 +8,11 @@
 			<div class="options__title">Main color</div>
 			<div class="options__color color">
 				<ul class="color__list">
-					<li data-color="red" class="color__item color__item_red" @click="setAccentColor('red')"></li>
-					<li data-color="blue" class="color__item color__item_blue" @click="setAccentColor('blue')"></li>
-					<li data-color="green" class="color__item color__item_green" @click="setAccentColor('green')"></li>
-					<li data-color="orange" class="color__item color__item_orange" @click="setAccentColor('orange')"></li>
-					<li data-color="yellow" class="color__item color__item_yellow" @click="setAccentColor('yellow')"></li>
-					<li data-color="violet" class="color__item color__item_violet" @click="setAccentColor('violet')"></li>
-					<li data-color="default" class="color__item color__item_default" @click="setAccentColor('default')"></li>
+					<li v-for="(color, i) in colors" :key="i" :data-color="color" :class="`color__item color__item_${color}`" @click="setAccentColor(color)"></li>
 				</ul>
 			</div>
 		</div>
+
 	</div>
 
 
@@ -30,7 +25,8 @@
 		name: "switcher",
 		data() {
 			return {
-				activeClass: true
+				activeClass: true,
+				colors: ['red','blue','green','orange','yellow','violet','default']
 			}
 		},
 		computed: {
@@ -61,7 +57,7 @@
 			top: 120px;
 			right: 0;
 			border: 1px solid #d5d5d5;
-			z-index: 100;
+			z-index: 50;
 			outline: 0;
 			cursor: pointer;
 			transition: all 0.2s linear;

@@ -2,7 +2,7 @@
 	<div class="person">
 		<div class="person__photo">
 			<tilt :max="45" :perspective="1000">
-				<img src="../static/images/main_photo.jpg" alt="photo">
+				<img src="../../static/images/main_photo.jpg" alt="photo">
 			</tilt>
 		</div>
 		<div class="person__text-wrap">
@@ -29,7 +29,7 @@
 
 <script>
 	import tilt from '@/components/AppTilt'
-	import blockShare from '@/components/blockShare'
+	import blockShare from './blockShare'
 	import infoList from '@/components/AppInfoList'
 
 	export default {

@@ -13,7 +13,7 @@
 					</div>
 					<div class="testimonials__credits">
 						<div class="testimonials__img">
-							<img src="../static/images/testimonials/testimonial_photo_2.jpg" alt="photo">
+							<img src="../../static/images/testimonials/testimonial_photo_2.jpg" alt="photo">
 						</div>
 						<div class="testimonials__author-info">
 							<p class="testimonials__author-info_author">John Doe</p>
@@ -30,7 +30,7 @@
 					</div>
 					<div class="testimonials__credits">
 						<div class="testimonials__img">
-							<img src="../static/images/testimonials/testimonial_photo_2.jpg" alt="photo">
+							<img src="../../static/images/testimonials/testimonial_photo_2.jpg" alt="photo">
 						</div>
 						<div class="testimonials__author-info">
 							<p class="testimonials__author-info_author">John Doe</p>
@@ -47,7 +47,7 @@
 					</div>
 					<div class="testimonials__credits">
 						<div class="testimonials__img">
-							<img src="../static/images/testimonials/testimonial_photo_2.jpg" alt="photo">
+							<img src="../../static/images/testimonials/testimonial_photo_2.jpg" alt="photo">
 						</div>
 						<div class="testimonials__author-info">
 							<p class="testimonials__author-info_author">John Doe</p>
@@ -64,7 +64,7 @@
 					</div>
 					<div class="testimonials__credits">
 						<div class="testimonials__img">
-							<img src="../static/images/testimonials/testimonial_photo_2.jpg" alt="photo">
+							<img src="../../static/images/testimonials/testimonial_photo_2.jpg" alt="photo">
 						</div>
 						<div class="testimonials__author-info">
 							<p class="testimonials__author-info_author">John Doe</p>
@@ -88,7 +88,7 @@
 
 <script>
 	import {swiper, swiperSlide} from 'vue-awesome-swiper'
-	import blockTitle from '@/components/blockTitle'
+	import blockTitle from './blockTitle'
 	import 'swiper/dist/css/swiper.css'
 
 	export default {

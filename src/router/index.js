@@ -32,11 +32,11 @@ const router = new Router({
 			name: 'Portfolios',
 			component: PortfolioList
 		},
-		{
-			path: '/profiles/:id',
-			name: 'Portfolio',
-			component: Portfolio
-		},
+		// {
+		// 	path: '/profiles/:id',
+		// 	name: 'Portfolio',
+		// 	component: Portfolio
+		// },
 		{
 			path: '/resume',
 			name: 'Resume',

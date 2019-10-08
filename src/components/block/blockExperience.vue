@@ -15,7 +15,7 @@
 </template>
 
 <script>
-	import blockTitle from '@/components/blockTitle'
+	import blockTitle from './blockTitle'
 
 	export default {
 		name: "blockSkills",

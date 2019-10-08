@@ -16,12 +16,12 @@
 
 <script>
 	import sectionTitle from '@/components/sectionTitle'
-	import blockTitle from '@/components/blockTitle'
-	import blockServices from '@/components/blockServices'
-	import blockTestimonials from '@/components/blockTestimonials'
-	import blockFun from '@/components/blockFun'
-	import blockClients from '@/components/blockClients'
-	import blockPerson from '@/components/blockPerson'
+	import blockTitle from '@/components/block/blockTitle'
+	import blockServices from '@/components/block/blockServices'
+	import blockTestimonials from '@/components/block/blockTestimonials'
+	import blockFun from '@/components/block/blockFun'
+	import blockClients from '@/components/block/blockClients'
+	import blockPerson from '@/components/block/blockPerson'
 
 	export default {
 		name: "AppAbout",
